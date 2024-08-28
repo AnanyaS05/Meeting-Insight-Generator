@@ -2,7 +2,7 @@
 
 This project is designed to help users gain insightful points about meeting participants, the industry, the market, and current situations. By taking inputs such as meeting participants, meeting context, and meeting objectives, the system performs extensive research to provide valuable information.
 
-CrewAI has been used to make various agents which would work together in specific roles to generate the output, Google Gemini API has been used to access the LLM model Gemini-1.5-Flash or Groq API can be used to run the agents on Llama3-70b LLM, Exa has been used for making tools for the agents to access the web and perform extensive research about the given topics and FastAPI has been used to create an API which can connect the entire pipeline to the frontend.
+CrewAI has been used to make various agents which would work together in specific roles to generate the output, Groq API has be used to run the agents on Llama3-70b LLM, Exa has been used for making tools for the agents to access the web and perform extensive research about the given topics and FastAPI has been used to create an API which can connect the entire pipeline to the frontend.
 
 ## Features
 
@@ -32,8 +32,8 @@ The project consists of the following main components:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/nabhpatodi10/meeting-insights-generator.git
-    cd meeting-insights-generator
+    git clone https://github.com/ananyas05/meeting-insight-generator.git
+    cd meeting-insight-generator
     ```
 
 2. Install the required packages:
